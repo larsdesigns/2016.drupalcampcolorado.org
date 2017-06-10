@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+
+<!-- Mirrored from dev-2016drupalcampcoloradoorg.pantheonsite.io/user/register by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 09 Jun 2017 09:06:06 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <title>Register | DrupalCamp Colorado</title>
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<meta http-equiv="x-ua-compatible" content="ie=edge, chrome=1" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="cleartype" content="on" />
+  <link rel="apple-touch-icon" sizes="57x57" href="../profiles/dcco/themes/dcco2016/favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="../profiles/dcco/themes/dcco2016/favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="../profiles/dcco/themes/dcco2016/favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="../profiles/dcco/themes/dcco2016/favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="../profiles/dcco/themes/dcco2016/favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="../profiles/dcco/themes/dcco2016/favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="../profiles/dcco/themes/dcco2016/favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="../profiles/dcco/themes/dcco2016/favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../profiles/dcco/themes/dcco2016/favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="../profiles/dcco/themes/dcco2016/favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../profiles/dcco/themes/dcco2016/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="../profiles/dcco/themes/dcco2016/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../profiles/dcco/themes/dcco2016/favicons/favicon-16x16.png">
+  <link rel="manifest" href="../manifest.html">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/profiles/dcco/themes/dcco2016/favicons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_QKQZsniKY0IGMqgYDWKEqZwlpxg2aTEnsadFc49SE68.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_T7NM09PmiAN6bratjo3rEQ48TvNPGnbP8vtOJGn6hK8.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_RhVWZGnIGDU9Bu2-05kQqpIwyvBwB44NQJJfrEb5KeQ.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU.css" media="print" />
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.jQuery || document.write("<script src='../profiles/dcco/modules/contrib/jquery_update/replace/jquery/1.10/jquery.min.js'>\x3C/script>")
+//--><!]]>
+</script>
+<script type="text/javascript" src="../sites/default/files/js/js_V1ZuwJK9uzfm6fFffOcHHubfxnimoxnbgG58pvTQdpY.js"></script>
+<script type="text/javascript" src="../sites/default/files/js/js_J8g9CYxbqA01kH6y5TY-u78CcQ0HRP7n6EM1al8Q1p8.js"></script>
+<script type="text/javascript" src="../sites/default/files/js/js_gPqjYq7fqdMzw8-29XWQIVoDSWTmZCGy9OqaHppNxuQ.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","../sites/default/files/googleanalytics/analytics2459.js?or9v5l","ga");ga("create", "UA-9027944-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="../sites/default/files/js/js_dld5isnNUOrw3YOGqvHMaze1_t8Q7peNuieDXhYyqA8.js"></script>
+<script type="text/javascript" src="../sites/default/files/js/js_bBHTlwoqoHibE17UE4LAj87MZwirnFZNYBAxR9SEFmQ.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"dcco2016","theme_token":"U_8-d2vHJlMHZNracyct6uGPyyE-ZIVTEIlb72SJias","jquery_version":"1.10","js":{"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.10.2\/jquery.min.js":1,"0":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/dcco\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"profiles\/dcco\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.min.js":1,"misc\/form.js":1,"misc\/ajax.js":1,"profiles\/dcco\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"profiles\/dcco\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"1":1,"modules\/user\/user.js":1,"misc\/progress.js":1,"modules\/file\/file.js":1,"misc\/textarea.js":1,"profiles\/dcco\/modules\/contrib\/mollom\/mollom.js":1,"profiles\/dcco\/themes\/dcco2016\/js\/responsive-nav\/responsive-nav.min.js":1,"profiles\/dcco\/themes\/dcco2016\/js\/menu.js":1,"profiles\/dcco\/themes\/dcco2016\/js\/main.js":1,"profiles\/dcco\/themes\/dcco2016\/js\/responsive-nav\/responsive-nav.js":1,"profiles\/dcco\/themes\/dcco2016\/js\/vendor\/slick\/slick.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"profiles\/dcco\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/dcco\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"profiles\/dcco\/modules\/contrib\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/youtube\/css\/youtube.css":1,"profiles\/dcco\/modules\/contrib\/views\/css\/views.css":1,"profiles\/dcco\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"profiles\/dcco\/modules\/contrib\/ctools\/css\/ctools.css":1,"modules\/file\/file.css":1,"modules\/image\/image.css":1,"sites\/default\/files\/honeypot\/honeypot.css":1,"profiles\/dcco\/themes\/dcco2016\/js\/responsive-nav\/responsive-nav.css":1,"profiles\/dcco\/themes\/center\/css\/override\/kill\/ctools.css":1,"profiles\/dcco\/themes\/center\/css\/override\/kill\/field.css":1,"profiles\/dcco\/themes\/center\/css\/override\/kill\/node.css":1,"profiles\/dcco\/themes\/center\/css\/override\/kill\/system.messages.css":1,"profiles\/dcco\/themes\/center\/css\/override\/kill\/system.menus.css":1,"profiles\/dcco\/themes\/center\/css\/override\/kill\/user.css":1,"profiles\/dcco\/themes\/center\/css\/override\/kill\/views.css":1,"profiles\/dcco\/themes\/center\/css\/override\/kill\/field_collection.theme.css":1,"profiles\/dcco\/themes\/center\/css\/override\/keep\/system.base.css":1,"profiles\/dcco\/themes\/center\/css\/override\/keep\/system.theme.css":1,"profiles\/dcco\/themes\/center\/css\/override\/keep\/search.css":1,"profiles\/dcco\/themes\/center\/css\/override\/keep\/vertical-tabs.css":1,"profiles\/dcco\/themes\/dcco2016\/js\/vendor\/slick\/slick.css":1,"profiles\/dcco\/themes\/dcco2016\/css\/screen.css":1,"profiles\/dcco\/themes\/dcco2016\/css\/override\/keep\/print.css":1}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"password":{"strengthTitle":"Password strength:","hasWeaknesses":"To make your password stronger:","tooShort":"Make it at least 6 characters","addLowerCase":"Add lowercase letters","addUpperCase":"Add uppercase letters","addNumbers":"Add numbers","addPunctuation":"Add punctuation","sameAsUsername":"Make it different from your username","confirmSuccess":"yes","confirmFailure":"no","weak":"Weak","fair":"Fair","good":"Good","strong":"Strong","confirmTitle":"Passwords match:","username":""},"file":{"elements":{"#edit-profile-personal-information-field-profile-image-und-0-upload":"png,gif,jpg,jpeg"}},"ajax":{"edit-profile-personal-information-field-profile-image-und-0-upload-button":{"wrapper":"edit-profile-personal-information-field-profile-image-und-0-ajax-wrapper","effect":"fade","progress":{"type":"throbber","message":null},"event":"mousedown","keypress":true,"prevent":"click","url":"\/file\/ajax\/profile_personal_information\/field_profile_image\/und\/0\/form-GcyWbSWsBTTkqR7f1MU1bwkuiKh64feXPDsuIrwWVmQ","submit":{"_triggering_element_name":"profile_personal_information_field_profile_image_und_0_upload_button","_triggering_element_value":"Upload"}}},"urlIsAjaxTrusted":{"\/file\/ajax\/profile_personal_information\/field_profile_image\/und\/0\/form-GcyWbSWsBTTkqR7f1MU1bwkuiKh64feXPDsuIrwWVmQ":true,"\/user\/register":true}});
+//--><!]]>
+</script>
+  <script type="text/javascript" src="http://use.typekit.net/tpk4uum.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+
+<body class="html not-front not-logged-in no-sidebars page-user page-user-register" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+  <div id="page" class="page">
+
+  <header id="header">
+  <div class="l--constrained">
+    <div id="branding">
+      <h1><a href="../index.html" title="Home" rel="home" id="logo">DrupalCamp Colorado</a></h1>
+              <h2 id="site-slogan">
+         August 13-14        </h2>
+          </div>
+          <div id="utility">
+            <div id="block-system-user-menu" class="block block-system block-menu">
+
+      
+  <div  class="block-content block-content">
+    <ul class="nav"><li class="first leaf nav-item login"><a href="logine450.html?current=user/register" title="" class="nav-link link-login">Log In</a></li>
+<li class="leaf nav-item codeofconduct"><a href="../content/drupalcamp-colorado-code-conduct-dccococ.html" title="Code of Conduct" class="nav-link link-codeofconduct">Code of Conduct</a></li>
+<li class="leaf nav-item volunteer"><a href="../content/volunteer-years-camp.html" title="" class="nav-link link-volunteer">Volunteer!</a></li>
+<li class="last leaf nav-item register"><a href="../register.html" title="" class="nav-link link-register">Register</a></li>
+</ul>  </div>
+</div>
+      </div>
+          </div>
+</header>
+
+  <div id="navigation" class="clearfix">
+    <div class="l--constrained">
+          <div id="block-system-main-menu" class="block block-system block-menu">
+
+      
+  <div  class="block-content block-content">
+    <ul class="nav nav-inline"><li class="first leaf nav-item sessions"><a href="../session-schedule.html" title="Session Schedule" class="nav-link link-sessions">Sessions</a></li>
+<li class="leaf nav-item training"><a href="../training.html" title="" class="nav-link link-training">Training</a></li>
+<li class="leaf nav-item sponsors"><a href="../sponsors.html" class="nav-link link-sponsors">Sponsors</a></li>
+<li class="leaf nav-item register"><a href="../register.html" title="" class="nav-link link-register icon-user">Register</a></li>
+<li class="leaf nav-item community"><a href="../community.html" title="Community" class="nav-link link-community">Community</a></li>
+<li class="leaf nav-item travel"><a href="../travel.html" title="Travel" class="nav-link link-travel">Travel</a></li>
+<li class="last collapsed nav-item updates"><a href="../latest-news.html" class="nav-link link-updates">Updates</a></li>
+</ul>  </div>
+</div>
+    </div>
+  </div>
+
+
+  
+  <div id="main">
+
+      
+    <? // We only support first sidebar at the moment. ?>
+    
+      <div id="main-content" class="">
+
+                  <div id="tabs">
+            <div class="l--constrained">
+              <h2 class="element-invisible">Primary tabs</h2><ul class="nav nav-tabs"><li class="active"><a href="register.html" class="active">Create new account<span class="element-invisible">(active tab)</span></a></li>
+<li><a href="../user.html">Log in</a></li>
+<li><a href="password.html">Request new password</a></li>
+</ul>            </div>
+          </div>
+                
+        <div class="l--constrained">
+          <div id="content">
+
+            
+                          <h1  class="page-title">
+                Register              </h1>
+            
+            
+                <form class="user-info-from-cookie" enctype="multipart/form-data" action="https://dev-2016drupalcampcoloradoorg.pantheonsite.io/user/register" method="post" id="user-register-form" accept-charset="UTF-8"><div><div disabled="disabled" id="edit-account" class="form-wrapper"><div class="form-item form-type-textfield form-item-name form-disabled">
+  <label class="form-item-label" for="edit-name">Username <span class="form-required" title="This field is required.">*</span></label>
+ <input class="username form-text required" disabled="disabled" type="text" id="edit-name" name="name" value="" size="60" maxlength="60" />
+<div class="form-item-description">Spaces are allowed; punctuation is not allowed except for periods, hyphens, apostrophes, and underscores.</div>
+</div>
+<div class="form-item form-type-textfield form-item-mail form-disabled">
+  <label class="form-item-label" for="edit-mail">E-mail address <span class="form-required" title="This field is required.">*</span></label>
+ <input disabled="disabled" type="text" id="edit-mail" name="mail" value="" size="60" maxlength="254" class="form-text required" />
+<div class="form-item-description">A valid e-mail address. All e-mails from the system will be sent to this address. The e-mail address is not made public and will only be used if you wish to receive a new password or wish to receive certain news or notifications by e-mail.</div>
+</div>
+<div class="form-item form-type-password-confirm form-item-pass form-disabled">
+ <div class="form-item form-type-password form-item-pass-pass1 form-disabled">
+  <label class="form-item-label" for="edit-pass-pass1">Password <span class="form-required" title="This field is required.">*</span></label>
+ <input class="password-field form-text required" disabled="disabled" type="password" id="edit-pass-pass1" name="pass[pass1]" size="25" maxlength="128" />
+</div>
+<div class="form-item form-type-password form-item-pass-pass2 form-disabled">
+  <label class="form-item-label" for="edit-pass-pass2">Confirm password <span class="form-required" title="This field is required.">*</span></label>
+ <input class="password-confirm form-text required" disabled="disabled" type="password" id="edit-pass-pass2" name="pass[pass2]" size="25" maxlength="128" />
+</div>
+
+<div class="form-item-description">Provide a password for the new account in both fields.</div>
+</div>
+<input disabled="disabled" type="hidden" name="timezone" value="America/Denver" />
+</div><fieldset class="form-wrapper" disabled="disabled" id="edit-profile-personal-information"><legend><span class="fieldset-legend">Personal Information</span></legend><div class="fieldset-wrapper"><div class="field-type-text field-name-field-first-name field-widget-text-textfield form-wrapper" disabled="disabled" id="edit-profile-personal-information-field-first-name"><div id="profile-personal-information-field-first-name-add-more-wrapper"><div class="form-item form-type-textfield form-item-profile-personal-information-field-first-name-und-0-value form-disabled">
+  <label class="form-item-label" for="edit-profile-personal-information-field-first-name-und-0-value">First Name <span class="form-required" title="This field is required.">*</span></label>
+ <input class="text-full form-text required" disabled="disabled" type="text" id="edit-profile-personal-information-field-first-name-und-0-value" name="profile_personal_information[field_first_name][und][0][value]" value="" size="60" maxlength="255" />
+</div>
+</div></div><div class="field-type-text field-name-field-last-name field-widget-text-textfield form-wrapper" disabled="disabled" id="edit-profile-personal-information-field-last-name"><div id="profile-personal-information-field-last-name-add-more-wrapper"><div class="form-item form-type-textfield form-item-profile-personal-information-field-last-name-und-0-value form-disabled">
+  <label class="form-item-label" for="edit-profile-personal-information-field-last-name-und-0-value">Last Name <span class="form-required" title="This field is required.">*</span></label>
+ <input class="text-full form-text required" disabled="disabled" type="text" id="edit-profile-personal-information-field-last-name-und-0-value" name="profile_personal_information[field_last_name][und][0][value]" value="" size="60" maxlength="255" />
+</div>
+</div></div><div class="field-type-image field-name-field-profile-image field-widget-image-image form-wrapper" disabled="disabled" id="edit-profile-personal-information-field-profile-image"><div id="edit-profile-personal-information-field-profile-image-und-0-ajax-wrapper"><div class="form-item form-type-managed-file form-item-profile-personal-information-field-profile-image-und-0 form-disabled">
+  <label class="form-item-label" for="edit-profile-personal-information-field-profile-image-und-0-upload">Profile image </label>
+ <div class="image-widget form-managed-file clearfix"><div class="image-widget-data"><input disabled="disabled" type="file" id="edit-profile-personal-information-field-profile-image-und-0-upload" name="files[profile_personal_information_field_profile_image_und_0]" size="22" class="form-file" /><input disabled="disabled" type="submit" id="edit-profile-personal-information-field-profile-image-und-0-upload-button" name="profile_personal_information_field_profile_image_und_0_upload_button" value="Upload" class="form-submit form-button-disabled" /><input disabled="disabled" type="hidden" name="profile_personal_information[field_profile_image][und][0][fid]" value="0" />
+<input disabled="disabled" type="hidden" name="profile_personal_information[field_profile_image][und][0][display]" value="1" />
+</div></div>
+<div class="form-item-description">A photo for your profile is encouraged. We'll auto-crop it to a square aspect ratio as long as it's 400x400 pixels in size. We accept PNGs, JPEGs, and GIFs.<br />Files must be less than <strong>3 MB</strong>.<br />Allowed file types: <strong>png gif jpg jpeg</strong>.<br />Images must be between <strong>400x400</strong> and <strong>800x800</strong> pixels.</div>
+</div>
+</div></div><div class="field-type-text-long field-name-field-bio field-widget-text-textarea form-wrapper" disabled="disabled" id="edit-profile-personal-information-field-bio"><div id="profile-personal-information-field-bio-add-more-wrapper"><div class="form-item form-type-textarea form-item-profile-personal-information-field-bio-und-0-value form-disabled">
+  <label class="form-item-label" for="edit-profile-personal-information-field-bio-und-0-value">Bio </label>
+ <div class="form-textarea-wrapper resizable"><textarea class="text-full form-textarea" disabled="disabled" id="edit-profile-personal-information-field-bio-und-0-value" name="profile_personal_information[field_bio][und][0][value]" cols="60" rows="5"></textarea></div>
+</div>
+</div></div><div class="field-type-text field-name-field-organization field-widget-text-textfield form-wrapper" disabled="disabled" id="edit-profile-personal-information-field-organization"><div id="profile-personal-information-field-organization-add-more-wrapper"><div class="form-item form-type-textfield form-item-profile-personal-information-field-organization-und-0-value form-disabled">
+  <label class="form-item-label" for="edit-profile-personal-information-field-organization-und-0-value">Organization </label>
+ <input class="text-full form-text" disabled="disabled" type="text" id="edit-profile-personal-information-field-organization-und-0-value" name="profile_personal_information[field_organization][und][0][value]" value="" size="60" maxlength="255" />
+</div>
+</div></div><div class="field-type-taxonomy-term-reference field-name-field-job-title field-widget-options-select form-wrapper" disabled="disabled" id="edit-profile-personal-information-field-job-title"><div class="form-item form-type-select form-item-profile-personal-information-field-job-title-und form-disabled">
+  <label class="form-item-label" for="edit-profile-personal-information-field-job-title-und">Job Title </label>
+ <select disabled="disabled" id="edit-profile-personal-information-field-job-title-und" name="profile_personal_information[field_job_title][und]" class="form-select"><option value="_none">- None -</option><option value="16">Front End Developer</option><option value="17">Back End Developer</option><option value="18">Designer</option><option value="19">Project Manager</option><option value="20">Sales</option><option value="21">Drupalista</option><option value="22">Other</option></select>
+</div>
+</div><div class="field-type-taxonomy-term-reference field-name-field-t-shirt-size field-widget-options-buttons form-wrapper" disabled="disabled" id="edit-profile-personal-information-field-t-shirt-size"><div class="form-item form-type-radios form-item-profile-personal-information-field-t-shirt-size-und form-disabled">
+  <label class="form-item-label" for="edit-profile-personal-information-field-t-shirt-size-und">T Shirt Size <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-profile-personal-information-field-t-shirt-size-und" class="form-radios"><div class="form-item form-type-radio form-item-profile-personal-information-field-t-shirt-size-und form-disabled">
+ <input disabled="disabled" type="radio" id="edit-profile-personal-information-field-t-shirt-size-und-23" name="profile_personal_information[field_t_shirt_size][und]" value="23" class="form-radio" />  <label class="form-item-label option" for="edit-profile-personal-information-field-t-shirt-size-und-23">Small </label>
+
+</div>
+<div class="form-item form-type-radio form-item-profile-personal-information-field-t-shirt-size-und form-disabled">
+ <input disabled="disabled" type="radio" id="edit-profile-personal-information-field-t-shirt-size-und-24" name="profile_personal_information[field_t_shirt_size][und]" value="24" class="form-radio" />  <label class="form-item-label option" for="edit-profile-personal-information-field-t-shirt-size-und-24">Medium </label>
+
+</div>
+<div class="form-item form-type-radio form-item-profile-personal-information-field-t-shirt-size-und form-disabled">
+ <input disabled="disabled" type="radio" id="edit-profile-personal-information-field-t-shirt-size-und-25" name="profile_personal_information[field_t_shirt_size][und]" value="25" class="form-radio" />  <label class="form-item-label option" for="edit-profile-personal-information-field-t-shirt-size-und-25">Large </label>
+
+</div>
+<div class="form-item form-type-radio form-item-profile-personal-information-field-t-shirt-size-und form-disabled">
+ <input disabled="disabled" type="radio" id="edit-profile-personal-information-field-t-shirt-size-und-26" name="profile_personal_information[field_t_shirt_size][und]" value="26" class="form-radio" />  <label class="form-item-label option" for="edit-profile-personal-information-field-t-shirt-size-und-26">X-Large </label>
+
+</div>
+<div class="form-item form-type-radio form-item-profile-personal-information-field-t-shirt-size-und form-disabled">
+ <input disabled="disabled" type="radio" id="edit-profile-personal-information-field-t-shirt-size-und-27" name="profile_personal_information[field_t_shirt_size][und]" value="27" class="form-radio" />  <label class="form-item-label option" for="edit-profile-personal-information-field-t-shirt-size-und-27">XX-Large </label>
+
+</div>
+</div>
+<div class="form-item-description">If you are donating more than $25.00 you will receive a t-shirt.</div>
+</div>
+</div><div class="field-type-taxonomy-term-reference field-name-field-food-preference field-widget-options-select form-wrapper" disabled="disabled" id="edit-profile-personal-information-field-food-preference"><div class="form-item form-type-select form-item-profile-personal-information-field-food-preference-und form-disabled">
+  <label class="form-item-label" for="edit-profile-personal-information-field-food-preference-und">Food Preference </label>
+ <select disabled="disabled" id="edit-profile-personal-information-field-food-preference-und" name="profile_personal_information[field_food_preference][und]" class="form-select"><option value="_none">- None -</option><option value="14">Herbivore</option><option value="15">Omnivore</option></select>
+</div>
+</div><div class="field-type-text field-name-field-twitter field-widget-text-textfield form-wrapper" disabled="disabled" id="edit-profile-personal-information-field-twitter"><div id="profile-personal-information-field-twitter-add-more-wrapper"><div class="form-item form-type-textfield form-item-profile-personal-information-field-twitter-und-0-value form-disabled">
+  <label class="form-item-label" for="edit-profile-personal-information-field-twitter-und-0-value">Twitter </label>
+ <input class="text-full form-text" disabled="disabled" type="text" id="edit-profile-personal-information-field-twitter-und-0-value" name="profile_personal_information[field_twitter][und][0][value]" value="" size="60" maxlength="255" />
+<div class="form-item-description">http://twitter.com/username</div>
+</div>
+</div></div><div class="field-type-text field-name-field-irc-nickname field-widget-text-textfield form-wrapper" disabled="disabled" id="edit-profile-personal-information-field-irc-nickname"><div id="profile-personal-information-field-irc-nickname-add-more-wrapper"><div class="form-item form-type-textfield form-item-profile-personal-information-field-irc-nickname-und-0-value form-disabled">
+  <label class="form-item-label" for="edit-profile-personal-information-field-irc-nickname-und-0-value">IRC Nickname </label>
+ <input class="text-full form-text" disabled="disabled" type="text" id="edit-profile-personal-information-field-irc-nickname-und-0-value" name="profile_personal_information[field_irc_nickname][und][0][value]" value="" size="60" maxlength="255" />
+</div>
+</div></div><div class="field-type-text field-name-field-drupal-org-username field-widget-text-textfield form-wrapper" disabled="disabled" id="edit-profile-personal-information-field-drupal-org-username"><div id="profile-personal-information-field-drupal-org-username-add-more-wrapper"><div class="form-item form-type-textfield form-item-profile-personal-information-field-drupal-org-username-und-0-value form-disabled">
+  <label class="form-item-label" for="edit-profile-personal-information-field-drupal-org-username-und-0-value">Drupal.org Username </label>
+ <input class="text-full form-text" disabled="disabled" type="text" id="edit-profile-personal-information-field-drupal-org-username-und-0-value" name="profile_personal_information[field_drupal_org_username][und][0][value]" value="" size="60" maxlength="255" />
+</div>
+</div></div><div class="field-type-text field-name-field-how-long-drupal field-widget-text-textfield form-wrapper" disabled="disabled" id="edit-profile-personal-information-field-how-long-drupal"><div id="profile-personal-information-field-how-long-drupal-add-more-wrapper"><div class="form-item form-type-textfield form-item-profile-personal-information-field-how-long-drupal-und-0-value form-disabled">
+  <label class="form-item-label" for="edit-profile-personal-information-field-how-long-drupal-und-0-value">How long have you been using Drupal? </label>
+ <input class="text-full form-text" disabled="disabled" type="text" id="edit-profile-personal-information-field-how-long-drupal-und-0-value" name="profile_personal_information[field_how_long_drupal][und][0][value]" value="" size="60" maxlength="255" />
+</div>
+</div></div></div></fieldset>
+<input disabled="disabled" type="hidden" name="form_build_id" value="form-GcyWbSWsBTTkqR7f1MU1bwkuiKh64feXPDsuIrwWVmQ" />
+<input disabled="disabled" type="hidden" name="form_id" value="user_register_form" />
+<input class="mollom-content-id" disabled="disabled" type="hidden" name="mollom[contentId]" value="" />
+<input class="mollom-captcha-id" disabled="disabled" type="hidden" name="mollom[captchaId]" value="1706096a4a0bfc38c7" />
+<div class="form-item form-type-textfield form-item-mollom-captcha form-disabled">
+  <label class="form-item-label" for="edit-mollom-captcha">Verification <span class="form-required" title="This field is required.">*</span></label>
+ <span class="field-prefix">
+<span class="mollom-captcha-container">
+  <a href="javascript:void(0);" class="mollom-refresh-captcha mollom-refresh-image"><img typeof="foaf:Image" src="../profiles/dcco/modules/contrib/mollom/images/refresh.png" alt="Refresh" /></a>
+  <span class="mollom-captcha-content mollom-image-captcha"><img typeof="foaf:Image" src="https://rest-production.mollom.com:443/v1/captcha/1706096a4a0bfc38c7.png" alt="Type the characters you see in this picture." /></span>
+  <span class="mollom-image-captcha-instructions">Type the characters you see in the picture; if you can't read them, submit the form and a new image will be generated. Not case sensitive.&nbsp;&nbsp;<a href="#" class="mollom-switch-captcha mollom-audio-captcha">Switch to audio verification.</a></span>
+</span>
+</span> <input title="Enter the characters from the verification above." disabled="disabled" type="text" id="edit-mollom-captcha" name="mollom[captcha]" value="" size="10" maxlength="128" class="form-text required" />
+</div>
+<div style="display: none;"><div class="form-item form-type-textfield form-item-mollom-homepage form-disabled">
+ <input autocomplete="off" disabled="disabled" type="text" id="edit-mollom-homepage" name="mollom[homepage]" value="" size="60" maxlength="128" class="form-text" />
+</div>
+</div><div class="form-actions form-wrapper" disabled="disabled" id="edit-actions"><input disabled="disabled" type="submit" id="edit-submit" name="op" value="Create new account" class="form-submit form-button-disabled" /></div><div class="dcco-url-textfield"><div class="form-item form-type-textfield form-item-dcco-url form-disabled">
+  <label class="form-item-label" for="edit-dcco-url">Leave this field blank </label>
+ <input autocomplete="off" disabled="disabled" type="text" id="edit-dcco-url" name="dcco-url" value="" size="20" maxlength="128" class="form-text" />
+</div>
+</div></div></form>
+          </div>
+        </div>
+
+        
+              </div>
+
+      
+    </div>
+
+  <div id="footer">
+  <div class="l--constrained clearfix">
+        <div id="block-menu-menu-social-menu" class="block block-menu">
+
+      
+  <div  class="block-content block-content">
+    <ul class="nav"><li class="first last leaf nav-item stayupdated"><a href="http://twitter.com/drupalcolorado" title="Drupal Colorado Twitter Account" class="nav-link link-stayupdated">Stay Updated</a></li>
+</ul>  </div>
+</div>
+<div id="block-menu-menu-footer-menu" class="block block-menu">
+
+      
+  <div  class="block-content block-content">
+    <ul class="nav"><li class="first leaf nav-item sessions"><a href="../sessions/submitted.html" title="Sessions" class="nav-link link-sessions">Sessions</a></li>
+<li class="leaf nav-item community"><a href="../community.html" title="" class="nav-link link-community">Community</a></li>
+<li class="leaf nav-item sponsors"><a href="../sponsors.html" title="Sponsors" class="nav-link link-sponsors">Sponsors</a></li>
+<li class="leaf nav-item travel"><a href="../travel.html" title="Travel" class="nav-link link-travel">Travel</a></li>
+<li class="leaf nav-item register"><a href="../register.html" title="Register" class="nav-link link-register">Register</a></li>
+<li class="leaf nav-item training"><a href="../training.html" title="Training Sessions" class="nav-link link-training">Training</a></li>
+<li class="leaf nav-item login"><a href="logine450.html?current=user/register" title="Log In" class="nav-link link-login">Log In</a></li>
+<li class="leaf nav-item events"><a href="../events.html" title="" class="nav-link link-events">Events</a></li>
+<li class="last leaf nav-item contact"><a href="../content/contact.html" title="Contact" class="nav-link link-contact">Contact</a></li>
+</ul>  </div>
+</div>
+  </div>
+</div>
+
+  <div id="admin-footer" class="l--constrained">
+        <div id="block-block-3" class="block block-block">
+
+      
+  <div  class="block-content block-content">
+    <p>Powered by <a class="pantheon-anchor" href="https://pantheon.io/" target="_blank" title="Hosting provided by Pantheon">Pantheon</a></p>
+  </div>
+</div>
+<div id="block-system-powered-by" class="block block-system">
+
+      
+  <div  class="block-content block-content">
+    <span>Powered by <a href="https://www.drupal.org/">Drupal</a></span>  </div>
+</div>
+  </div>
+
+</div>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"1d210d771d","applicationID":"21277680","transactionName":"Z1RWNkcFWUYCBUFZXF4edQFBDVhbTAJHRUNRXWsFUBBoUwwUWA==","queueTime":0,"applicationTime":273,"atts":"SxNVQA8fSkg=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+<!-- Mirrored from dev-2016drupalcampcoloradoorg.pantheonsite.io/user/register by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 09 Jun 2017 09:06:13 GMT -->
+</html>

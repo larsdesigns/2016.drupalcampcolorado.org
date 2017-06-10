@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://dev-2016drupalcampcoloradoorg.pantheonsite.io"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>DrupalCamp Colorado - Front End</title>
+ <link>https://dev-2016drupalcampcoloradoorg.pantheonsite.io/taxonomy/term/7</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Quick and dirty - A radical approach to Drupal</title>
+ <link>https://dev-2016drupalcampcoloradoorg.pantheonsite.io/session/quick-and-dirty-radical-approach-drupal</link>
+ <description>&lt;a href=&quot;/content/august-14th-day-2&quot;&gt;August 14th - Day 2 10:30am-11:15am&lt;/a&gt;Room 315&lt;p&gt;How many ways are there to skin a cat?!? Certainly not as many as there are to skin Drupal! But what if there was only ONE way to &quot;theme&quot; Drupal, and it was really easy, extensible, intuitive, and testable? In this session I&#039;ll be presenting &quot;Catalyst&quot;, a tool for rapid Drupal development (some will call it hacking) and show off a few of the many things that you can produce with it. Catalyst might be described as an inline IDE for Drupal. It has many uses and can be used by pretty much anybody that knows a little HTML, Twig, and CSS. When you&#039;re trying to avoid the overhead of Drupal and considering Wordpress or static, Catalyst might be a suitable route! Participation is invited, ridicule is to be expected, and all feedback is appreciated! Disclaimer: Catalyst is presently limited to Drupal 7 but a Drupal 8 port is imminent. &lt;a href=&quot;http://www.drupal.org/project/catalyst&quot;&gt;http://www.drupal.org/project/catalyst&lt;/a&gt;&lt;/p&gt;
+          &lt;span class=&quot;field-item even&quot; class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/users/lee20&quot;&gt;lee20&lt;/a&gt; &lt;/span&gt;
+    &lt;a href=&quot;/taxonomy/term/7&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Front End&lt;/a&gt;&lt;a href=&quot;/taxonomy/term/11&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Beginner&lt;/a&gt;</description>
+ <pubDate>Tue, 02 Aug 2016 19:21:26 +0000</pubDate>
+ <dc:creator>MatthewS</dc:creator>
+ <guid isPermaLink="false">196 at https://dev-2016drupalcampcoloradoorg.pantheonsite.io</guid>
+ <comments>https://dev-2016drupalcampcoloradoorg.pantheonsite.io/session/quick-and-dirty-radical-approach-drupal#comments</comments>
+</item>
+<item>
+ <title>Digital Analytics Data Collection Architecture Overview</title>
+ <link>https://dev-2016drupalcampcoloradoorg.pantheonsite.io/session/digital-analytics-data-collection-architecture-overview</link>
+ <description>&lt;a href=&quot;/content/august-14th-day-2&quot;&gt;August 14th - Day 2 11:30am-12:15pm&lt;/a&gt;Room 315&lt;p&gt;I will show a concept system with DOM markup for the data collection system to hook onto, then the data collection system performs logic and data cleanup, populates the data layer, triggers appropriate tags, which perform custom logic on data layer elements, then sends to end points. Then I&#039;ll discuss the front-end QA and data quality monitoring.&lt;/p&gt;
+          &lt;span class=&quot;field-item even&quot; class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/users/lindsayo-0&quot;&gt;lindsayo&lt;/a&gt; &lt;/span&gt;
+    &lt;a href=&quot;/taxonomy/term/7&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Front End&lt;/a&gt;&lt;a href=&quot;/taxonomy/term/12&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Intermediate&lt;/a&gt;</description>
+ <pubDate>Thu, 28 Jul 2016 01:00:19 +0000</pubDate>
+ <dc:creator>lindsayo</dc:creator>
+ <guid isPermaLink="false">191 at https://dev-2016drupalcampcoloradoorg.pantheonsite.io</guid>
+ <comments>https://dev-2016drupalcampcoloradoorg.pantheonsite.io/session/digital-analytics-data-collection-architecture-overview#comments</comments>
+</item>
+<item>
+ <title>Atomic Design in Drupal 8: Isolating your frontend workflow with Pattern Lab!</title>
+ <link>https://dev-2016drupalcampcoloradoorg.pantheonsite.io/session/atomic-design-drupal-8-isolating-your-frontend-workflow-pattern-lab</link>
+ <description>&lt;a href=&quot;/content/august-14th-day-2&quot;&gt;August 14th - Day 2 2:00pm-2:45pm&lt;/a&gt;Recital Hall&lt;p&gt;Drupal 8 has allowed for the integration of modern workflows into the Drupal community. The transition to Twig as the templating engine specifically provides the space to integrate new patterns and tools into your frontend workflow. Pattern Lab is a static site generator that provides a structure for developing a templating and theming framework based on atomic design. The Twig version of Pattern Lab, along with the Data Transform plugin written by Aleksi Peebles, creates the possibility to integrate Pattern Lab directly into your Drupal project.&lt;/p&gt;
+&lt;p&gt;This session will review the basic principles of Pattern Lab and atmomic design, but will focus on the practical implementation of Pattern Lab in YOUR next Drupal project. We will work toward the following goals:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		Review the basic principles of Pattern Lab and how it can integrate directly with a Drupal 8 project, including specific issues that make Pattern Lab in Drupal different from a standalone Pattern Lab project&lt;/li&gt;
+&lt;li&gt;
+		Discuss some challenges that you might encounter if you want to add Pattern Lab to your project and an example of one specific implementation&lt;/li&gt;
+&lt;li&gt;
+		Consider a functioning example of a Drupal 8 site that has a well developed Pattern Lab backbone and discuss some potential benefits of this type of workflow&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Hopefully, you will walk away from this session able to include Pattern Lab in your next project if you decide it&#039;s the tool for you!&lt;/p&gt;
+          &lt;span class=&quot;field-item even&quot; class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/users/asimone&quot;&gt;asimone&lt;/a&gt; &lt;/span&gt;
+    &lt;a href=&quot;/taxonomy/term/7&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Front End&lt;/a&gt;&lt;a href=&quot;/taxonomy/term/12&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Intermediate&lt;/a&gt;</description>
+ <pubDate>Sat, 16 Jul 2016 01:59:59 +0000</pubDate>
+ <dc:creator>asimone</dc:creator>
+ <guid isPermaLink="false">180 at https://dev-2016drupalcampcoloradoorg.pantheonsite.io</guid>
+ <comments>https://dev-2016drupalcampcoloradoorg.pantheonsite.io/session/atomic-design-drupal-8-isolating-your-frontend-workflow-pattern-lab#comments</comments>
+</item>
+<item>
+ <title>Functor, Monad, and other scary words (that aren&#039;t so scary)</title>
+ <link>https://dev-2016drupalcampcoloradoorg.pantheonsite.io/session/functor-monad-and-other-scary-words-arent-so-scary</link>
+ <description>&lt;a href=&quot;/content/august-13-day-1&quot;&gt;August 13 - Day 1 10:30am-11:15am&lt;/a&gt;Room 315&lt;p&gt;Functional programming has a lot of great built in benefits. It allows us to think of our programs in simpler terms, pushing side effects to the edges of our application. It forces us to generally think through what we are solving and the steps to get us there. In this session I will talk about the type classes you can use and build in your JavaScript apps to help you think more functionally.&lt;/p&gt;
+&lt;p&gt;Some knowledge you&#039;ll walk away with:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		What a Functor is, and how to create one&lt;/li&gt;
+&lt;li&gt;
+		What a Monad is, and how to create one&lt;/li&gt;
+&lt;li&gt;
+		How to compose functions&lt;/li&gt;
+&lt;li&gt;
+		How to wrap values in contexts&lt;/li&gt;
+&lt;/ul&gt;          &lt;span class=&quot;field-item even&quot; class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/users/joshmili&quot;&gt;joshmili&lt;/a&gt; &lt;/span&gt;
+    &lt;a href=&quot;/taxonomy/term/7&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Front End&lt;/a&gt;&lt;a href=&quot;/taxonomy/term/12&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Intermediate&lt;/a&gt;</description>
+ <pubDate>Fri, 15 Jul 2016 07:11:18 +0000</pubDate>
+ <dc:creator>joshmili</dc:creator>
+ <guid isPermaLink="false">176 at https://dev-2016drupalcampcoloradoorg.pantheonsite.io</guid>
+ <comments>https://dev-2016drupalcampcoloradoorg.pantheonsite.io/session/functor-monad-and-other-scary-words-arent-so-scary#comments</comments>
+</item>
+<item>
+ <title>Front End TDD</title>
+ <link>https://dev-2016drupalcampcoloradoorg.pantheonsite.io/session/front-end-tdd</link>
+ <description>&lt;a href=&quot;/content/august-14th-day-2&quot;&gt;August 14th - Day 2 10:30am-11:15am&lt;/a&gt;Concert Hall&lt;p&gt;TDD (Test Driven Development) has been used for a long time and has proven itself to be a strong methodology for building solid applications. In the beginning, you might feel like you are wasting time writing tests, but you will spend much less time later on finding the root causes of problems. More importantly, you can concentrate on small units of code and make sure each unit is of good quality. The numbers of tests will grow with the main code, and essentially, you’ll get early feedback on any problems in your application.&lt;/p&gt;
+&lt;p&gt;Most developers seem to agree that testing is good, but developers frequently disagree about how to test. In this session, I’ll break down some common misconceptions and hopefully teach you a few things about how you can benefit the most from front-end TDD (Test Driven Development) &amp;amp; BDD (Behavior Driven Development).&lt;/p&gt;
+&lt;p&gt;Slides can be found &lt;a href=&quot;http://bit.ly/frontend-tdd&quot;&gt;here.&lt;/a&gt;&lt;/p&gt;
+          &lt;span class=&quot;field-item even&quot; class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/users/rymcveigh&quot;&gt;rymcveigh&lt;/a&gt; &lt;/span&gt;
+    &lt;a href=&quot;/taxonomy/term/7&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Front End&lt;/a&gt;&lt;a href=&quot;/taxonomy/term/12&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Intermediate&lt;/a&gt;</description>
+ <pubDate>Tue, 12 Jul 2016 17:53:42 +0000</pubDate>
+ <dc:creator>rymcveigh</dc:creator>
+ <guid isPermaLink="false">171 at https://dev-2016drupalcampcoloradoorg.pantheonsite.io</guid>
+ <comments>https://dev-2016drupalcampcoloradoorg.pantheonsite.io/session/front-end-tdd#comments</comments>
+</item>
+<item>
+ <title>Aha! Understanding and Using Render Arrays in Drupal 8</title>
+ <link>https://dev-2016drupalcampcoloradoorg.pantheonsite.io/session/aha-understanding-and-using-render-arrays-drupal-8</link>
+ <description>&lt;a href=&quot;/content/august-13-day-1&quot;&gt;August 13 - Day 1 4:00pm-4:45pm&lt;/a&gt;Concert Hall&lt;p&gt;theme() has been a popular function used by Drupal developers since Drupal 4.7. Drupal 7 core calls theme() over 200 times alone. But theme() no longer exists in Drupal 8 and there is no object-oriented equivalent. If we can’t call theme(), how do we render our data with the Twig templates that we’re all so excited about?&lt;/p&gt;
+&lt;p&gt;Render arrays. Every use of a Drupal 8 template starts with a render array and many variables within a template are render arrays themselves. While they did exist before Drupal 8, render arrays weren’t used as often as they should have been. They’re everywhere now, and for good reason. They provide many advantages over their deprecated counterpart.&lt;/p&gt;
+&lt;p&gt;Unfortunately render arrays are a bit confusing and intimidating until that wonderful “aha moment” hits. This session aims to provide that moment. It will cover:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		what render arrays are and how to use them&lt;/li&gt;
+&lt;li&gt;
+		how render arrays become rendered markup&lt;/li&gt;
+&lt;li&gt;
+		why render arrays provide advantages over theme()&lt;/li&gt;
+&lt;li&gt;
+		best practices for using render arrays in a sustainable way&lt;/li&gt;
+&lt;li&gt;
+		other goodies, such as attaching assets and caching&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Because render arrays bridge the gap between the back and front ends, it’s important for developers on both sides to understand them. Previous experience with theme(), hook_theme(), preprocess functions, and/or templates in Drupal 7 will make this session easier to follow and understand, but isn&#039;t required.&lt;/p&gt;
+          &lt;span class=&quot;field-item even&quot; class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/users/guschilds&quot;&gt;guschilds&lt;/a&gt; &lt;/span&gt;
+    &lt;a href=&quot;/taxonomy/term/7&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Front End&lt;/a&gt;&lt;a href=&quot;/taxonomy/term/12&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Intermediate&lt;/a&gt;</description>
+ <pubDate>Thu, 16 Jun 2016 17:21:57 +0000</pubDate>
+ <dc:creator>guschilds</dc:creator>
+ <guid isPermaLink="false">149 at https://dev-2016drupalcampcoloradoorg.pantheonsite.io</guid>
+ <comments>https://dev-2016drupalcampcoloradoorg.pantheonsite.io/session/aha-understanding-and-using-render-arrays-drupal-8#comments</comments>
+</item>
+<item>
+ <title>Jump Start GSAP JS &amp; TimelineLite</title>
+ <link>https://dev-2016drupalcampcoloradoorg.pantheonsite.io/session/jump-start-gsap-js-timelinelite</link>
+ <description>&lt;a href=&quot;/content/august-13-day-1&quot;&gt;August 13 - Day 1 11:30am-12:15pm&lt;/a&gt;Room 314&lt;p&gt;GSAP has been the most respected tool in Flash animation for almost a decade. The SWF party&#039;s over though man. We&#039;re like the 20-somethings at a high school kegger. But wait! Greensock is a here to make us cool again! With GSAP JS and their TimelineLite framework, we can animate like its 1999! Oh, and it&#039;s easy. You&#039;ll learn how to put your tweens on a timeline. Bend timelines to your will by reversing, slowing and even staggering them. Put timelines in timelines. Be the daddy of animation again. Then pop it in Drupal 8!&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;a pdf=&quot;&quot; of=&quot;&quot; a=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+          &lt;span class=&quot;field-item even&quot; class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/users/alne1147-0&quot;&gt;Alne1147&lt;/a&gt; &lt;/span&gt;
+    &lt;a href=&quot;/taxonomy/term/7&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Front End&lt;/a&gt;&lt;a href=&quot;/taxonomy/term/11&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Beginner&lt;/a&gt;</description>
+ <pubDate>Thu, 16 Jun 2016 16:25:04 +0000</pubDate>
+ <dc:creator>Alne1147</dc:creator>
+ <guid isPermaLink="false">148 at https://dev-2016drupalcampcoloradoorg.pantheonsite.io</guid>
+ <comments>https://dev-2016drupalcampcoloradoorg.pantheonsite.io/session/jump-start-gsap-js-timelinelite#comments</comments>
+</item>
+</channel>
+</rss>

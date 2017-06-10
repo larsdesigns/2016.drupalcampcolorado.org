@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://dev-2016drupalcampcoloradoorg.pantheonsite.io"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>DrupalCamp Colorado - keynote</title>
+ <link>https://dev-2016drupalcampcoloradoorg.pantheonsite.io/taxonomy/term/28</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>DrupalCamp Colorado</title>
+ <link>https://dev-2016drupalcampcoloradoorg.pantheonsite.io/content/drupalcamp-colorado</link>
+ <description>&lt;p&gt;We&#039;ve been super busy getting the camp site up and running. After 8 months of working on details, lining up contracts for space and working together on the website, the time is nearly at hand.&lt;/p&gt;
+&lt;p&gt;AND, this year DCCO is FREE! We do request that you make a donation, even if it is a small one. Any registration contributions beyond our budget target will be donated to charity. If you contribute $25, you&#039;ll get a T-Shirt. If you contribute $50, well, then you are just simply AWESOME!&lt;/p&gt;
+&lt;a href=&quot;/taxonomy/term/28&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;keynote&lt;/a&gt;&lt;a href=&quot;/taxonomy/term/32&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;donations&lt;/a&gt;&lt;a href=&quot;/taxonomy/term/33&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;free&lt;/a&gt;</description>
+ <pubDate>Fri, 06 Jun 2014 15:57:14 +0000</pubDate>
+ <dc:creator>dcco</dc:creator>
+ <guid isPermaLink="false">19 at https://dev-2016drupalcampcoloradoorg.pantheonsite.io</guid>
+ <comments>https://dev-2016drupalcampcoloradoorg.pantheonsite.io/content/drupalcamp-colorado#comments</comments>
+</item>
+</channel>
+</rss>
